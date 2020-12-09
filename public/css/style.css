@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: rgb(206, 204, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.image-header {
+    display: none;
+}
+
+header {
+    width: 100%;
+}
+
+.text-header {
+    width: 100%;
+    height: 400px;
+    padding-top: 170px;
+    background-image: url(../../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px
+}
+
+header>div>h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+header>div>p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+header>div>p>span {
+    text-decoration: underline;
+}
+
+header>div>hr {
+    margin-top: 10px;
+    width: 40%;
+}
+
+/* BANNER */
+
+.diamand {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(94, 93, 93);
+    margin-bottom: 70px;
+}
+
+.text-diamand>p {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-diamand>h2 {
+    text-transform: uppercase;
+}
+
+#diamanddiv {
+    display: inline;
+    padding: 15px;
+    font-size: 30px;
+    border: solid 1px rgb(94, 93, 93);
+    border-radius: 50%;
+}
+
+.text-diamand {
+    margin-top: 50px;
+}
+
+.diamand>button {
+    letter-spacing: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: rgb(94, 93, 93);
+}
+
+.diamand>button:hover {
+    color: red;
+    border-color: red;
+}
