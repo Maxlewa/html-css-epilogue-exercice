@@ -112,7 +112,7 @@ header>div>hr {
     /* position: relative; */
 }
 
-#bgcontainer {
+#bgcontainer1 {
     background-image: url(../../images/pic01.jpg);
     /* width: 15%; */
     width: 100%;
@@ -125,7 +125,7 @@ header>div>hr {
 }
 
 
-#bgcontainer>h4 {
+#bgcontainer1>h4 {
     text-align: center;
     color: white;
     text-transform: uppercase;
@@ -133,14 +133,14 @@ header>div>hr {
     font-size: 20px;
 }
 
-#bgcontainer:hover {
+#bgcontainer1:hover {
     transform: scale(1.1);
     /* background-size: 110%; */
 }
 
-#bgcontainer:hover:not(h4){
+/* .bgcontainer:hover:not(h4){
     transform: scale(1.1);
-}
+} */
 
 .card-body {
     height: 550px;
@@ -152,6 +152,7 @@ header>div>hr {
 .card {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
 
 .button-card {
@@ -170,10 +171,13 @@ header>div>hr {
 
 .section-card {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     width: 70%;
+    /* margin-right: 0;
+    margin-left: 0; */
 }
 
 .card-text {
@@ -183,4 +187,79 @@ header>div>hr {
     text-align: center;
 }
 
+#bgcontainer2 {
+    background-image: url(../../images/pic02.jpg);
+    /* width: 15%; */
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+
+#bgcontainer2>h4 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#bgcontainer2:hover {
+    transform: scale(1.1);
+    /* background-size: 110%; */
+}
+
+#bgcontainer3 {
+    background-image: url(../../images/pic03.jpg);
+    /* width: 15%; */
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+#bgcontainer3>h4 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#bgcontainer3:hover {
+    transform: scale(1.1);
+    /* background-size: 110%; */
+}
+
+#bgcontainer4 {
+    background-image: url(../../images/pic04.jpg);
+    /* width: 15%; */
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+#bgcontainer4>h4 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#bgcontainer4:hover {
+    transform: scale(1.1);
+    /* background-size: 110%; */
+}
 
